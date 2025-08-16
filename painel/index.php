@@ -310,7 +310,7 @@ if($linhas > 0){
 							
 								<li>
 									<div class="notification_bottom">
-										<a href="receber">Ver todas as contas</a>
+										<a href="receber">Visualizar todas as contas</a>
 									</div> 
 								</li>
 							</ul>
@@ -362,7 +362,7 @@ if($linhas > 0){
 							
 								<li>
 									<div class="notification_bottom">
-										<a href="pagar">Ver todas as contas</a>
+										<a href="pagar">Visualizar todas as contas</a>
 									</div> 
 								</li>
 							</ul>

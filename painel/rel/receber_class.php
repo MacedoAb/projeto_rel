@@ -7,7 +7,8 @@ $pago = $_POST['pago'];
 $tipo_data = $_POST['tipo_data'];
 
 
-$html = file_get_contents($url_sistema."painel/rel/receber.php?dataInicial=$dataInicial&dataFinal=$dataFinal&pago=$pago&tipo_data=$tipo_data");
+$html = file_get_contents($url_sistema."painel/rel/receber.php?dataInicial=$dataInicial
+&dataFinal=$dataFinal&pago=$pago&tipo_data=$tipo_data");
 
 //CARREGAR DOMPDF
 require_once '../dompdf/autoload.inc.php';
